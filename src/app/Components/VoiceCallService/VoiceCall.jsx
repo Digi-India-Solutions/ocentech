@@ -151,10 +151,10 @@ export default function SMSWhatsApp() {
                 <div className="container">
 
                     <div className="row">
-                        <h1 className="text-center fontweight">
+                        <h2 className="text-center fontweight">
                             Key  <span className="titlebold"> Features</span> and <span className="titlebold">  Benefits</span> of <span className="titlebold"> Voice Call Services </span>
 
-                        </h1>
+                        </h2>
                         <div className="col-md-6">
                             <div className="ImageSection">
                                 <Image src={Pic2} alt="whatsappimg" className="VoiceCallImg " />

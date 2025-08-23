@@ -70,7 +70,7 @@ export default function PromotionalPlan() {
           >
             <div className="pricing-card">
               {/* Highlight Icon */}
-              <div className="overlayIcon">
+              {/* <div className="overlayIcon">
                 {plan.highlight && (
                   <Image
                     src={pic1}
@@ -79,7 +79,7 @@ export default function PromotionalPlan() {
                     width={100}
                   />
                 )}
-              </div>
+              </div> */}
 
               {/* Header */}
               <div className="pricing-header">

@@ -66,7 +66,7 @@ export default function OTPPlan() {
           >
             <div className="pricing-card">
               {/* Highlight Icon */}
-              <div className="overlayIcon">
+              {/* <div className="overlayIcon">
                 {plan.highlight && (
                   <Image
                     src={pic1}
@@ -75,7 +75,7 @@ export default function OTPPlan() {
                     width={100}
                   />
                 )}
-              </div>
+              </div> */}
 
               {/* Header */}
               <div className="pricing-header">
