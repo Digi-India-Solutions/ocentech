@@ -151,10 +151,7 @@ export default function SMSWhatsApp() {
                 <div className="container">
 
                     <div className="row">
-                        <h2 className="text-center fontweight">
-                            Key  <span className="titlebold"> Features</span> and <span className="titlebold">  Benefits</span> of <span className="titlebold"> Voice Call Services </span>
-
-                        </h2>
+                       
                         <div className="col-md-6">
                             <div className="ImageSection">
                                 <Image src={Pic2} alt="whatsappimg" className="VoiceCallImg " />
@@ -163,7 +160,9 @@ export default function SMSWhatsApp() {
                         <div className="col-md-6 textCloumn">
 
                             <div className="mt-5">
-                                <h2 className="mb-4 fontweight">Sends pre-recorded voice messages to many users at the same time through phone calls.</h2>
+                           <h2 className="text-start fontweight">
+                            Key  <span className="titlebold"> Features</span> and <span className="titlebold">  Benefits</span> of <span className="titlebold"> Voice Call Services </span>
+                        </h2>
                                 <p>
                                     <b className="spanbold"> Automated Voice Messaging  :</b>
                                     Sends pre-recorded voice messages to many users at the same time through phone calls.    </p>
