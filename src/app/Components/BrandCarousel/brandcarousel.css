@@ -1,0 +1,98 @@
+.brand-carousel-container {
+  width: 80%;
+  margin: auto;
+}
+
+.brand-icon {
+  margin-top: 20px;
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.BrandTitle {
+  margin-top: 28px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* Active slide animation */
+.swiper-slide-active .brand-icon {
+  transform: scale(1.2);
+  filter: grayscale(0%);
+}
+
+/* ===== Responsive Styles ===== */
+
+/* Extra Small Devices (≤ 480px) */
+@media (max-width: 480px) {
+  .brand-carousel-container {
+    width: 95%;
+  }
+
+  .brand-icon {
+    width: 85px;
+    height: 55px;
+    margin-top: 10px;
+  }
+
+  .BrandTitle {
+    font-size: 1rem;
+    padding: 0 8px;
+    line-height: 1.3;
+  }
+}
+
+/* Small Tablets (≤ 640px) */
+@media (max-width: 640px) {
+  .brand-icon {
+    width: 100px;
+    height: 65px;
+  }
+}
+
+/* Tablets (≤ 768px) */
+@media (max-width: 768px) {
+  .brand-carousel-container {
+    width: 90%;
+  }
+
+  .BrandTitle {
+    font-size: 14px;
+    padding: 0 8px;
+    line-height: 1.3;
+}
+
+  .brand-icon {
+    width: 110px;
+    height: 70px;
+    margin-top: 15px;
+  }
+}
+
+/* Medium Screens (≤ 1024px) */
+@media (max-width: 1024px) {
+  .brand-carousel-container {
+    width: 90%;
+  }
+
+  .brand-icon {
+    width: 130px;
+    height: 85px;
+  }
+}
+
+/* Large Screens (≥ 1200px) */
+@media (min-width: 1200px) {
+  .brand-carousel-container {
+    width: 80%;
+  }
+
+  .brand-icon {
+    width: 150px;
+    height: 100px;
+  }
+}
