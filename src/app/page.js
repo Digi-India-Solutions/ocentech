@@ -13,11 +13,13 @@ import BulkSms from "./Components/BulkSMS/BulkSms";
 import PricingPlans from "./Components/PricingPlans/PricingPlans";
 import GoogleMap from "./Components/GoogleMap/GoogleMap";
 
+
 export default function Home() {
   return (
    <>
       <div>
          <OurStory/>
+        
          <BrandCarousel/>
          {/* <Header/> */}
          {/* <FeatureSection/> */}
