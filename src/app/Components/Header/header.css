@@ -10,7 +10,7 @@
   border-radius: 10px;
   min-height: 350px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
-  background: rgb(177, 32, 32); /* Added for better contrast */
+  background: rgb(255, 255, 255); /* Added for better contrast */
   overflow: hidden; /* Smooth GSAP content clip */
 }
 

@@ -21,7 +21,6 @@ export default function InquiaryForm() {
     "Voice Call Service",
     "IVR Service",
     "Bulk Email Marketing",
-    "Bulk SMS Transactional",
     "RCS Service",
   ]);
 
