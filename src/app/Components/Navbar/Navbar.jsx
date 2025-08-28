@@ -6,6 +6,7 @@ import logo from "../../Images/logo.jpg";
 import Image from "next/image";
 import "./navbar.css";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import Link from "next/link";
 
 // Create Navbar.css in the same folder
 
@@ -44,28 +45,33 @@ export default function NavScrollExample() {
               <NavDropdown.Item href="/Pages/bulk-sms-promotion">
                 Bulk Sms Promotion
               </NavDropdown.Item>
+              <NavDropdown.Item href="/Pages/bulk-sms-transactional">
+                Bulk Sms Transactional
+              </NavDropdown.Item>
               <NavDropdown.Item href="/Pages/otp-sms">
                 Otp Sms Service
               </NavDropdown.Item>
-              <NavDropdown.Item href="/Pages/bulk-sms-whatsapp">
-                Whatsapp Sms Service
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/Pages/voice-call">
+                <NavDropdown.Item href="/Pages/voice-call">
                 Voice Call Service
               </NavDropdown.Item>
               <NavDropdown.Item href="/Pages/ivr-services">
                 IVR Service
               </NavDropdown.Item>
+               <NavDropdown.Item href="/Pages/rcs-services">
+                RCS Service
+              </NavDropdown.Item>
+             
+            
+              
               <NavDropdown.Item href="/Pages/bulk-email">
                 Bulk Email Marketing
               </NavDropdown.Item>
+               <NavDropdown.Item href="/Pages/bulk-sms-whatsapp">
+                Whatsapp Sms Service
+              </NavDropdown.Item>
               {/* <NavDropdown.Item href="/Pages/dtl-service">DTL Service</NavDropdown.Item> */}
-              <NavDropdown.Item href="/Pages/rcs-services">
-                RCS Service
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/Pages/bulk-sms-transactional">
-                Bulk Sms Transactional
-              </NavDropdown.Item>
+             
+              
               {/* <NavDropdown.Item href="#app-dev">Bulk Sms Transaction</NavDropdown.Item> */}
             </NavDropdown>
 
@@ -76,10 +82,13 @@ export default function NavScrollExample() {
 
           {/* Right: Buttons */}
           <div className="d-flex gap-2">
-            <Button as="a" href="tel:+919289933499" variant="primary">
+            
+            <Button  as="a" href="tel:+919289933499"  variant="outline-primary">+91 9289933499</Button>
+            <Link href='/Pages/contact'>
+            <Button  variant="primary">
               Call Us
             </Button>
-            <Button variant="outline-primary">+91 9289933499</Button>
+            </Link>
           
           </div>
         </Navbar.Collapse>

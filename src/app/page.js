@@ -13,6 +13,33 @@ import BulkSms from "./Components/BulkSMS/BulkSms";
 import PricingPlans from "./Components/PricingPlans/PricingPlans";
 import GoogleMap from "./Components/GoogleMap/GoogleMap";
 
+export const metadata = {
+  title: "Ocean Tag Zone | Bulk SMS & Marketing Services",
+  description:
+    "Ocean Tag Zone provides bulk SMS, WhatsApp marketing, IVR, voice call, and email marketing services to help businesses grow efficiently.",
+  keywords:
+    "bulk sms, whatsapp marketing, ivr services, voice call service, bulk email, ocean tag zone, sms gateway",
+  openGraph: {
+    title: "Ocean Tag Zone",
+    description: "Bulk SMS & Marketing Services for Businesses",
+    url: "https://oceantechzone.com",
+    siteName: "Ocean Tag Zone",
+    images: [
+      {
+        url: "/meta.png",
+        width: 800,
+        height: 600,
+        alt: "Ocean Tag Zone Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  verification: {
+    google: "abc123XYZ...", // <-- Replace with your Google Search Console code
+  },
+};
+
 
 export default function Home() {
   return (

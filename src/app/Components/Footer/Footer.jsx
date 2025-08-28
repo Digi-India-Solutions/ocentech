@@ -217,7 +217,12 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+        
       </div>
+       <hr className="border-light w-100 m-0" />
+      <p className="mb-0 mt-2 text-sm text-center">
+        © {new Date().getFullYear()} All Rights Reserved | OCEAN TECH ZONE
+      </p>
     </footer>
   );
 }
