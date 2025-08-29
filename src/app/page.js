@@ -1,66 +1,47 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import OurStory from "./Components/OurStory/OurStory";
 import BrandCarousel from "./Components/BrandCarousel/BrandCarousel";
-import FeatureSection from "./Components/Features/Features";
 import Faq from "./Components/Faq/Faq";
 import AboutUs from "./Components/AboutUs/AboutUs";
-import Header from "./Components/Header/Header";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import StatsSection from "./Components/StateSection/StateSection";
 import Services from "./Components/Services/Services";
 import BulkSms from "./Components/BulkSMS/BulkSms";
 import PricingPlans from "./Components/PricingPlans/PricingPlans";
-import GoogleMap from "./Components/GoogleMap/GoogleMap";
-
-export const metadata = {
-  title: "Ocean Tag Zone | Bulk SMS & Marketing Services",
-  description:
-    "Ocean Tag Zone provides bulk SMS, WhatsApp marketing, IVR, voice call, and email marketing services to help businesses grow efficiently.",
-  keywords:
-    "bulk sms, whatsapp marketing, ivr services, voice call service, bulk email, ocean tag zone, sms gateway",
-  openGraph: {
-    title: "Ocean Tag Zone",
-    description: "Bulk SMS & Marketing Services for Businesses",
-    url: "https://oceantechzone.com",
-    siteName: "Ocean Tag Zone",
-    images: [
-      {
-        url: "/meta.png",
-        width: 800,
-        height: 600,
-        alt: "Ocean Tag Zone Logo",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-  verification: {
-    google: "abc123XYZ...", // <-- Replace with your Google Search Console code
-  },
-};
-
-
+import Head from "next/head";
 export default function Home() {
   return (
-   <>
-      <div>
-         <OurStory/>
-        
-         <BrandCarousel/>
-         {/* <Header/> */}
-         {/* <FeatureSection/> */}
-         <AboutUs/>
-         <Services/>
-         <PricingPlans/>
-         <StatsSection/>
-         <BulkSms/>
-         <Testimonial/>
-         {/* <GoogleMap/> */}
-         <Faq/>
+    <>
+      <Head>
+        <title>
+          India’s Leading Bulk SMS Services Provider – Fast & Affordable
+        </title>
+        <meta
+          name="description"
+          content="Take your marketing to the next level with OceanTechZone’s cost-effective bulk SMS service. Instantly reach more customers and stay ahead of the competition. Cost-effective bulk SMS pricing plans for businesses. Send promotional, transactional, OTP messages affordably with secure, reliable, and fast delivery."
+        />
+        <meta
+          name="keywords"
+          content="bulk sms service, bulk sms provider, transactional sms service, promotional sms service, Bulk Sms service providers in delhi, bulk sms service provider near me, cheapest bulk sms, free bulk sms services, ivr services, Ocean Tech Zone, Bulk SMS pricing, Bulk SMS plans, SMS marketing platform, SMS API, Affordable bulk SMS"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://oceantechzone.com" />
+      </Head>
 
+      <div>
+        <OurStory />
+
+        <BrandCarousel />
+        {/* <Header/> */}
+        {/* <FeatureSection/> */}
+        <AboutUs />
+        <Services />
+        <PricingPlans />
+        <StatsSection />
+        <BulkSms />
+        <Testimonial />
+        {/* <GoogleMap/> */}
+        <Faq />
       </div>
-   
-   </>
+    </>
   );
 }
