@@ -1,0 +1,71 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+:root {
+  
+  --theme-color: #124adb ;   /* Lighter Shade */
+  --theme-background: #124adb ;   /* Lighter Shade */
+  --text-color:#dce2f0;    /* Default Text */
+}
+
+/* .uppercase {
+  text-transform: uppercase;
+} */
+.fontweight{
+  font-weight: 600;
+}
+.titlebold{
+  color:var(--theme-color);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.spanbold{
+  color:var(--theme-color);
+}
+
+.themebackground{
+  background-color: var(--theme-background) !important;
+  color:white !important;
+}
+ 
+
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
