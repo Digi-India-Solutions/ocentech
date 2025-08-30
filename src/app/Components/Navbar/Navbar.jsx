@@ -44,8 +44,8 @@ export default function NavScrollExample() {
               <NavDropdown.Item href="/Pages/bulk-sms-promotion">
                 Bulk Sms Promotion
               </NavDropdown.Item>
-              <NavDropdown.Item href="/Pages/otp-sms">
-                Otp Sms Service
+              <NavDropdown.Item href="/Pages/bulk-sms-transactional">
+                Bulk Sms Transactional
               </NavDropdown.Item>
               <NavDropdown.Item href="/Pages/bulk-sms-whatsapp">
                 Whatsapp Sms Service
@@ -63,15 +63,15 @@ export default function NavScrollExample() {
               <NavDropdown.Item href="/Pages/rcs-services">
                 RCS Service
               </NavDropdown.Item>
-              <NavDropdown.Item href="/Pages/bulk-sms-transactional">
-                Bulk Sms Transactional
+              <NavDropdown.Item href="/Pages/otp-sms">
+                OTP SMS Services
               </NavDropdown.Item>
               {/* <NavDropdown.Item href="#app-dev">Bulk Sms Transaction</NavDropdown.Item> */}
             </NavDropdown>
 
             <Nav.Link href="/Pages/dtl-service">DLT Services</Nav.Link>
-            <Nav.Link href="/Pages/contact">Contact Us</Nav.Link>
             <Nav.Link href="/Pages/blogs">Blogs</Nav.Link>
+            <Nav.Link href="/Pages/contact">Contact Us</Nav.Link>   
           </Nav>
 
           {/* Right: Buttons */}

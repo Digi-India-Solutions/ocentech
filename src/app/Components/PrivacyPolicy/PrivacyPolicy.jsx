@@ -24,10 +24,8 @@ export default function PrivacyPolicy() {
 
     <div className="d-flex float-end gap-2 mb-3 mt-4">
         <button variant="primary" className="btn btn-primary" onClick={handleDownload}>Download PDF</button>
-
-       <button variant="secondary"  className="btn btn-primary" onClick={()=>setShowModal(true)}> View in Modal</button>
        </div>
-
+    
       <header className="policy-header">
         <h1 className="uppercase">OceanTechZone  Privacy Policy</h1>
         <p>
@@ -263,9 +261,9 @@ export default function PrivacyPolicy() {
           </p>
           <p>
             OceanTechZone <br />
-            Email: <a href="mailto:enquiry@oceantechzone.com">enquiry@oceantechzone.com</a> <br />
-            Phone: [Insert Company Support Number] <br />
-            Address: [Insert Registered Office Address]
+            Email: <a href="mailto:info@oceantechzone.com">info@oceantechzone.com</a> <br />
+            Phone: 92899 33499 <br />
+            Address: OLD MB ROAD, LADO SARAI, NEW DELHI 110030 
           </p>
         </section>
       </main>

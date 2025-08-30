@@ -16,27 +16,25 @@ export default function TestimonialSlider() {
   const testimonials = [
     {
       name: "Rahul Mehta",
-      role: "Marketing Manager, XYZ Retail Pvt. Ltd.",
+      role: "Marketing Manager, XYZ Retail Pvt. Ltd.",  
       image: pic1,
       rating: 5,
-      text: "We have been using  for over a year now, and the results have been fantastic. The delivery rate is excellent, messages are sent instantly, and their support team is always ready to help. Its the most reliable bulk SMS service we have tried.",
+      text: "Using this bulk SMS service for a year—fast delivery, reliable performance, and excellent support make it our trusted messaging partner.",
     },
     {
       name: "Neha Sharma",
       role: "Operations Head, ABC Enterprises	",
       image: pic2,
       rating: 5,
-      text: "The user-friendly platform and quick delivery have made our customer communication so much easier. We have seen a significant increase in engagement since switching to Ocean Tech. Highly recommended!"									
-						 			,
+      text: "Ocean Tech’s easy platform and fast delivery improved our communication, increased engagement, and made customer interaction seamless. Highly recommended service.",
     },  				
     {
       name: " Amit Kumar ",
       role: "Director , BrightFuture Education Services	",
       image: pic3,
       rating: 4,
-      text: "What sets Ocean Tech apart is their consistent service quality and transparent pricing. We use it for both promotional and transactional messages, and it has never let us down."									
-									,
-    },								
+      text: "Ocean Tech delivers consistent service quality and transparent pricing, ensuring reliable promotional and transactional messages without ever failing.",
+    },
     {
       name: " Priya Nair",
       role: "  Customer Relations Manager,  TechNova Solutions	",

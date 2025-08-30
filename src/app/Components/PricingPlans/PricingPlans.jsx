@@ -10,7 +10,7 @@ const pricingData = {
   "Transactional SMS": [
     {
       title: "Basic",
-      price: "₹375000/-",
+      price: "₹3750",
       rate: "₹ 0.15 P / sms",
       sms: "25K Transactional SMS",
       features: [
@@ -25,7 +25,7 @@ const pricingData = {
     },
     {
       title: "Premium",
-      price: "₹70000/-",
+      price: "₹7000",
       rate: "₹ 0.14 P / sms",
       sms: "50K Transactional SMS",
       features: [

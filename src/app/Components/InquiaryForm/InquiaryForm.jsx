@@ -13,14 +13,15 @@ export default function InquiaryForm() {
   });
 
   const [services] = useState([
-    "Bulk SMS Service",
+
     "Bulk SMS Promotion",
+    "Bulk SMS Transactiona",
     "OTP SMS Service",
     "WhatsApp SMS Service",
     "Voice Call Service",
     "IVR Service",
     "Bulk Email Marketing",
-    "Bulk SMS Transactional",
+    "Get 7 days free Trial",
     "RCS Service",
   ]);
 
@@ -73,12 +74,12 @@ export default function InquiaryForm() {
         <input type="text" name="name" placeholder="Full Name" className="form-control mb-3" value={formData.name} onChange={handleChange} required />
         <input type="email" name="email" placeholder="Email Address" className="form-control mb-3" value={formData.email} onChange={handleChange} required />
         <input type="tel" name="phone" placeholder="Phone Number" className="form-control mb-3" value={formData.phone} onChange={handleChange} required />
-        <input type="text" name="company" placeholder="Company" className="form-control mb-3" value={formData.company} onChange={handleChange} required />
+        <input type="text" name="company" placeholder="Company Name" className="form-control mb-3" value={formData.company} onChange={handleChange} required />
         <select name="service" className="form-control mb-3" value={formData.service} onChange={handleChange} required>
           <option value="">Select a Service</option>
           {services.map((s, i) => <option key={i} value={s}>{s}</option>)}
         </select>
-        <textarea name="message" placeholder="Your Message" className="form-control mb-3" rows="3" value={formData.message} onChange={handleChange} required />
+        <textarea name="message" placeholder="Share your detailed message here about the services"  className="form-control mb-3" rows="3" value={formData.message} onChange={handleChange} required />
         <button type="submit" className="btn themebackground w-100" disabled={loading}>
           {loading ? "Sending..." : "Submit Query"}
         </button>

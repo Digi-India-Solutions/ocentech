@@ -10,7 +10,7 @@ import Image from "next/image";
 import FlipButton from "../FlipButton/FlipButton";
 import gsap from "gsap";
 
-export default function Header() {
+export default function Header() {  
   const [activeTab, setActiveTab] = useState("tab1");
   const contentRef = useRef(null);
 
