@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 // import axios from "axios"; // keep if you plan to send data to backend
 import "./rcsservice.css";
-
+import Head from "next/head";
 import Pic1 from "@/app/Images/Bulk Email Marketing Page/Launch a Professional Bulk Email Campaign in Minutes.png"
 import Pic2 from "@/app/Images/Bulk Email Marketing Page/Our Email Marketing Services and What We Offer.png"
 import Image from "next/image";
@@ -12,11 +12,12 @@ import Link from "next/link";
 
 
 export default function RCSService() {
+    
     const [formData, setFormData] = useState({
         name: "",
         phone: "",
         email: "",
-        message: "",
+        message: "",    
     });
 
     const handleChange = (e) => {
