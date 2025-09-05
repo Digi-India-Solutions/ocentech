@@ -13,15 +13,15 @@ export default function OurStory() {
         {/* Left Content */}
         <div className="col-lg-6 mb-4 mb-lg-0 text-left text-lg-start">
           <h1 className="fw-bold pb-3 story-heading">
-            Best <span className="spanbold">Bulk SMS SERVICE</span><br /> Provider in Delhi
+            Best <span className="spanbold">Bulk SMS SERVICE</span><br /> Provider in India
           </h1>
           <p className="text-muted story-text mx-auto mx-lg-0">
-            Boost efficiency and reduce costs with our Bulk SMS services in Delhi — 
+            Boost efficiency and reduce costs with our Bulk SMS services in India —
             instantly connect with a global audience for faster communication.
           </p>
           <div className="d-flex justify-content-center justify-content-lg-start gap-3 mt-4">
             <Link href="/Pages/contact"  className="text-decoration-none"><button className="btn btn-lg explore-btn d-flex align-items-center gap-2">
-              Get Start Now
+              Schedule Free Demo
               <IoArrowRedoCircleSharp size={28} />
             </button></Link>
           </div>

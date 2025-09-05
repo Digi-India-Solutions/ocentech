@@ -41,7 +41,6 @@ export default function NavScrollExample() {
               id="services-dropdown"
               className="custom-dropdown"
             >
-              {/* <NavDropdown.Item href="/Pages/bulk-sms">Bulk Sms </NavDropdown.Item> */}
               <NavDropdown.Item href="/Pages/bulk-sms-promotion">
                 Bulk Sms Promotion
               </NavDropdown.Item>
@@ -49,47 +48,38 @@ export default function NavScrollExample() {
                 Bulk Sms Transactional
               </NavDropdown.Item>
               <NavDropdown.Item href="/Pages/otp-sms">
-                Otp Sms Service
+                OTP SMS Service
               </NavDropdown.Item>
-                <NavDropdown.Item href="/Pages/voice-call">
+              <NavDropdown.Item href="/Pages/voice-call">
                 Voice Call Service
               </NavDropdown.Item>
               <NavDropdown.Item href="/Pages/ivr-services">
                 IVR Service
               </NavDropdown.Item>
-               <NavDropdown.Item href="/Pages/rcs-services">
+              <NavDropdown.Item href="/Pages/rcs-services">
                 RCS Service
               </NavDropdown.Item>
-             
-            
-              
               <NavDropdown.Item href="/Pages/bulk-email">
                 Bulk Email Marketing
               </NavDropdown.Item>
-               <NavDropdown.Item href="/Pages/bulk-sms-whatsapp">
-                Whatsapp Sms Service
+              <NavDropdown.Item href="/Pages/bulk-sms-whatsapp">
+                WhatsApp Sms Service
               </NavDropdown.Item>
-              {/* <NavDropdown.Item href="/Pages/dtl-service">DTL Service</NavDropdown.Item> */}
-             
-              
-              {/* <NavDropdown.Item href="#app-dev">Bulk Sms Transaction</NavDropdown.Item> */}
             </NavDropdown>
 
             <Nav.Link href="/Pages/dtl-service">DLT Services</Nav.Link>
-            <Nav.Link href="/Pages/contact">Contact Us</Nav.Link>
             <Nav.Link href="/Pages/blogs">Blogs</Nav.Link>
+            <Nav.Link href="/Pages/contact">Contact Us</Nav.Link>
           </Nav>
 
           {/* Right: Buttons */}
           <div className="d-flex gap-2">
-            
-            <Button  as="a" href="tel:+919289933499"  variant="outline-primary">+91 9289933499</Button>
-            <Link href='/Pages/contact'>
-            <Button  variant="primary">
-              Call Us
+            <Button as="a" href="tel:+919289933499" variant="outline-primary">
+              +91 9289933499
             </Button>
+            <Link href="/Pages/contact">
+              <Button variant="primary">Call Us</Button>
             </Link>
-          
           </div>
         </Navbar.Collapse>
       </Container>

@@ -13,14 +13,14 @@ export default function InquiaryForm() {
   });
 
   const [services] = useState([
-    "Bulk SMS Service",
+    "7 Day's Free demo",
+    "Bulk SMS Transactional",
     "Bulk SMS Promotion",
     "OTP SMS Service",
     "WhatsApp SMS Service",
     "Voice Call Service",
     "IVR Service",
     "Bulk Email Marketing",
-    "Bulk SMS Transactional",
     "RCS Service",
   ]);
 
